@@ -92,7 +92,6 @@ aside {
 	}
 	nav {
 		grid-column: 1/4;
-		height: 5vh;
 		background-color: white;
 	}
 	section {
@@ -110,8 +109,7 @@ aside {
 		}
 	.menu-div {
 		background-color: greenyellow;
-		height: 35px;
-		padding: 20px;
+		height: auto;
 	}
 
 }
