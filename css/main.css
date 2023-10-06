@@ -72,3 +72,10 @@ article{
 aside{
     background-color: blueviolet;
 }
+
+@media only screen and (min-width: 768px) {
+body{
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+}
+}
