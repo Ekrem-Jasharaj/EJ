@@ -1,1 +1,3 @@
-//alert("githun js");
+function  toggleClass(x,y) {
+    document.getElementById(x).classList.toggle(y); 
+}
