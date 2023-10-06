@@ -111,5 +111,8 @@ aside {
 		background-color: greenyellow;
 		height: auto;
 	}
+	.menu-div ul li {
+		display: inline-block;
+	}
 
 }
