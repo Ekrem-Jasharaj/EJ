@@ -3,33 +3,21 @@
 <head>
 <title>Page Title</title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="../css/main.css">
- <script src="../js/main.js"></script>
+ <link rel="stylesheet" href="css/main.css">
+ <script src="js/main.js"></script>
 </head>
 <body>
- <header>
-  thisi is my header
- </header>
- <nav>
-<div  id="menu-bars" class="menu-bars" onclick="toggleClass('menu-bars','change-shape'); toggleClass('menu-div','change-color')">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-</div>
-<div id="menu-div" class="menu-div">
- <ul>
-  <li><a href="../index.html">Home</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="about.html">About</a></li>
- </ul>
-</div>
-</nav>
+ <header include-html="headers/header.html"></header>
+ <nav include-html="navs/nav.html"></nav>
  <section>
   this is my section
-  <h1>About</h1>
-  <article>this i s my articel</article>
+  <h1>About Page</h1>
+  <article html-include="articles/article002"></article>
  </section>
- <aside>This is aside</aside>
- <footer>This is my footer</footer>
+ <aside include-html="asides/aside.html"></aside>
+ <footer include-html="footers/footer.html"></footer>
+<script>
+includeHTML();
+</script>
 </body>
 </html>
