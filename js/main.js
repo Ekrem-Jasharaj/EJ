@@ -1,7 +1,3 @@
-function  toggleClass(x,y) {
-    document.getElementById(x).classList.toggle(y); 
-}
-
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   z = document.getElementsByTagName("*");
@@ -26,3 +22,7 @@ function includeHTML() {
     }
   }
 };
+
+function  toggleClass(x,y) {
+    document.getElementById(x).classList.toggle(y); 
+}
