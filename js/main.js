@@ -20,7 +20,7 @@ class MainEJ{
       		return;
     		}
   		}
-	
+	}
 };
 
 function  toggleClass(x,y) {
