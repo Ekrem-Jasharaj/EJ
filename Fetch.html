@@ -13,19 +13,12 @@
 
 async function getText(file) {
   let myObject = await fetch(file);
-  let myText = await myObject.json();   
-    
+  let myText = await myObject.json();       
   document.getElementById("demo").innerHTML = myText;
   console.log(myText);
-
 }
-
-  getText("https://raw.githubusercontent.com/json-iterator/test-data/master/large-file.json");
+getText("https://raw.githubusercontent.com/json-iterator/test-data/master/large-file.json");
     
-fetch(file)  
-    .then(res=>res.json())
-    .then(data=>console.log("DATA", data))
-
 </script>
 
 </body>
