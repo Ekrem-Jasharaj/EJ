@@ -21,8 +21,10 @@ class MainEJ{
     		}
   		}
 	}
+
+	toggleClass(x,y) {
+        	document.getElementById(x).classList.toggle(y); 
+	}
 };
 
-function  toggleClass(x,y) {
-    document.getElementById(x).classList.toggle(y); 
-}
+
