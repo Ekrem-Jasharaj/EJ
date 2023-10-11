@@ -12,7 +12,7 @@ class MainEJ{
           			if (this.status == 200) {elmnt.innerHTML = this.responseText;}
           			if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
           			elmnt.removeAttribute("include-html");
-          			includeHTML();
+          			this.includeHTML();
         		}
       		}      
       		xhttp.open("GET", file, true);
