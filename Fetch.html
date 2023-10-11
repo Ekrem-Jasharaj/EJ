@@ -7,7 +7,7 @@
 <p id="demo">Fetch a file to change this text.</p>
 
 <script>
-let file = "http://ejwebdesign.cf/wp-json/"
+let file = "https://ejwebdesign.cf/wp-json/"
 fetch (file)
 .then(x => x.text())
 .then(y => document.getElementById("demo").innerHTML = y);
