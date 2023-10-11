@@ -9,6 +9,15 @@
 <script>
 let file = "http://ejwebdesign.cf/wp-json/";
 
+
+async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.json();   
+    
+  document.getElementById("demo").innerHTML = myText;
+
+}
+    
 fetch(file)  
     .then(res=>res.json())
     .then(data=>console.log(data))
