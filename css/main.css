@@ -65,7 +65,7 @@ ul {
 
 ul li a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 section {
@@ -120,6 +120,4 @@ aside {
 
 
 /*******C CSS********/
-#about-links{
-	backgroun-color: black;
-}
+
